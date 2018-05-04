@@ -1,0 +1,118 @@
+/* GLOBAL STYLES */
+body {
+font-family: 'Droid Sans Mono', monospace, 'Courier', sans-serif;
+text-transform: lowercase;
+text-align: center;
+font-size: 20px;
+line-height: 1.5;
+margin: 0 auto;
+padding: 0;
+}
+
+ul {list-style: none
+}
+
+/* HEADER STYLES */
+header {
+  color: #ffffff;
+  font-family: 'Droid Sans Mono', monospace, 'Courier', sans-serif;
+  line-height: 1.5;
+  padding: 110px 0;
+  background: url(../images/horse.jpg) no-repeat fixed 50%;
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 60px;
+  text-align: center;
+  background-color: rgba(255, 170, 170, 0.5);
+  padding: 50px;
+  margin: 50px;
+}
+
+header h1:hover {
+  color: #000000;
+}
+
+header h2 {
+  font-size: 50px
+  text-align: center;
+  background-color: rgba(255, 170, 170, 0.5);
+  padding: 50px;
+  margin: 50px;
+}
+
+section h1 {
+  font-size: 50px;
+}
+
+section {
+padding: 20px 0;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #FFAAAA;
+}
+
+/*JUST POUR KNOWING
+.profile img {
+  float: left;
+  margin-right: 30px;
+
+  .profile {
+  overflow: hidden;
+}
+} */
+
+/* ABOUT ME / PROFILE */
+.profile {
+  background: #D46A6A;
+}
+
+.content-wrap {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* WORK EXPERIENCE */
+.work {
+  background: #AA3939;
+}
+
+/* SKILLS */
+.skills {
+    background: #801515;
+
+}
+
+/* EDUCATION */
+.education {
+  background: #550000;
+}
+
+/*CONTACT INFO */
+.contact {
+  color: #FFFFFF;
+  background: url(../images/walking.jpg) no-repeat fixed;
+  background-size: cover;
+  margin: -30px auto;
+}
+
+.download {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: rgba(255, 170, 170, 0.5);
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* FOOTER */
+footer {
+  color: #FFFFFF;
+}
